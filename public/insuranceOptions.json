@@ -1,0 +1,33 @@
+[
+    {
+      "title": "Kasko",
+      "description": "En omfattende forsikring som dekker skader på egen bil ved kollisjon og uhell, samt tyveri, brann, glasskader, og redningshjelp, men uten leiebil.",
+      "price": 1123,
+      "recommended": false
+    },
+    {
+      "title": "Toppkasko",
+      "description": "Full dekning som inkluderer reparasjon av egen bil ved kollisjon og skader på andres eiendom. Dekker også tyveri, brann, glasskader, og redningshjelp.",
+      "price": 1235,
+      "recommended": false
+    },
+    {
+      "title": "Kasko med leiebil",
+      "description": "En forsikring som passer de fleste biler. Dekker det meste av skader, også de du selv er ansvarlig for. Inkluderer: minikasko og ansvar.",
+      "price": 1179,
+      "recommended": false
+    },
+    {
+      "title": "Minikasko",
+      "description": "Dekker tyveri, brann, glasskader, og veihjelp, men ikke kollisjonsskader på egen bil.",
+      "price": 491,
+      "recommended": false
+    },
+    {
+      "title": "Ansvar",
+      "description": "Den lovpålagte minimumsforsikringen som dekker skader du påfører andre, men ikke skader på egen bil.",
+      "price": 362,
+      "recommended": false
+    }
+  ]
+  
