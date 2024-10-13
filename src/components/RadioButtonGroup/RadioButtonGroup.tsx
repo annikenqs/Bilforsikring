@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import RadioButton from "../RadioButton/RadioButton";
-import { fetchMockData, InsuranceOption } from "../../utils/fetchMockData"; 
+import { fetchMockData, InsuranceOption } from "../../utils/fetchMockData";
 
 const RadioButtonGroup: React.FC = () => {
   const [selectedOption, setSelectedOption] = useState<number | null>(null);
@@ -9,25 +9,26 @@ const RadioButtonGroup: React.FC = () => {
   useEffect(() => {
     const getOptions = async () => {
       const data = await fetchMockData();
-  
+
       const randomIndex = Math.floor(Math.random() * data.length);
       const updatedData = data.map((option: InsuranceOption, index: number) =>
         index === randomIndex ? { ...option, recommended: true } : { ...option }
       );
-      
+
       setOptions(updatedData);
     };
     getOptions();
   }, []);
 
   const sortedOptions = [...options].sort((a, b) => b.price - a.price);
-  
+
   const handleOptionChange = (index: number) => {
     setSelectedOption(index);
   };
 
   return (
     <section>
+      <h4>Velg dekning</h4>
       {sortedOptions.map((option, index) => (
         <RadioButton
           key={index}
@@ -43,4 +44,4 @@ const RadioButtonGroup: React.FC = () => {
   );
 };
 
-export default RadioButtonGroup
+export default RadioButtonGroup;
