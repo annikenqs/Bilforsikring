@@ -1,0 +1,18 @@
+.comparison-toggle {
+  background: none;
+  border: none;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+  display: inline-block;
+  border-bottom: 1px solid #000; 
+  line-height: 1.2;
+  margin-top: 10px;
+  padding: 0;
+}
+
+.comparison-toggle:focus-visible {
+  border: 2px solid #005fcc;
+  outline: none; 
+}
+
