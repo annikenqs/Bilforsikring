@@ -16,7 +16,9 @@ const RadioButton: React.FC<RadioButtonProps> = ({
   recommended,
   onChange,
 }) => {
+    
   const uniqueId = `radio-${title}`;
+
   return (
     <label className={`radio-button ${selected ? "selected" : ""} ${ recommended ? "recommended" : "" }`}>
       {recommended && <span className="recommended-badge">Anbefalt</span>}
