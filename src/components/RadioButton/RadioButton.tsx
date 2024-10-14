@@ -3,10 +3,7 @@ import "./RadioButton.css";
 import { InsuranceOption } from "../../utils/fetchMockData";
 
 interface RadioButtonProps
-  extends Pick<
-    InsuranceOption,
-    "title" | "description" | "price" | "recommended"
-  > {
+  extends Pick<InsuranceOption, "title" | "description" | "price" | "recommended"> {
   selected: boolean;
   onChange: () => void;
 }
@@ -21,11 +18,7 @@ const RadioButton: React.FC<RadioButtonProps> = ({
 }) => {
   const uniqueId = `radio-${title}`;
   return (
-    <label
-      className={`radio-button ${selected ? "selected" : ""} ${
-        recommended ? "recommended" : ""
-      }`}
-    >
+    <label className={`radio-button ${selected ? "selected" : ""} ${ recommended ? "recommended" : "" }`}>
       {recommended && <span className="recommended-badge">Anbefalt</span>}
       <input
         type="radio"
