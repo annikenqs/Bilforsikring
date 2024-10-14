@@ -1,4 +1,4 @@
-# Caseoppgave: Bilforsikring
+# Oppgave om bilforsikring
 
 ### Oppgave 1
 Jeg valgte å løse frontend-oppgaven. Kort forklaring: Jeg har forsøkt å gjenskape skissen så godt som mulig, og mocket litt fiktiv data slik at alle forsikringene har en beskrivelse. Forsikringene er sortert synkende etter pris. I tillegg har jeg sørget for at anbefalt-taggen dukker opp på en tilfeldig forsikring hver gang, men det er også mulig å angi den på bestemte forsikringer manuelt, dersom det er ønskelig. Klikker man på "Sammenlign dekninger" skal det vises litt tekst, som i en ferdig løsning ville inneholdt en sammenligning av de ulike forsikringene, f.eks. i form av en tabell.
@@ -14,14 +14,13 @@ Hvis nettsiden ikke åpner seg automatisk, kopier linken fra terminalen (som sta
 
 
 ### Oppgave 2 
-**I dagens digitale verden er det viktig å ivareta sikkerhet når man jobber med persondata. Nevn noen tiltak du mener utviklerne bør gjøre for å ivareta sikkerhet og/eller personvern i denne løsningen?**
 
 Jeg gjør en antakelse om at løsningen er en del av et større system, der en bruker kanskje er logget inn, samt at brukeren senere skal fylle inn opplysinger for å motta et reelt forsikringstilbud.
 
-Noen tiltak for å ivareta sikkerhet/personvern i denne løsningen:
+Noen tiltak for å ivareta sikkerhet/personvern i løsningen:
 
-- Dataminimering: Man bør kun samle inn de nødvendige personopplysningene for å gi brukeren et tilbud om forsikring. (f.eks. info om bilens registreringsnummer og modell, brukerens bosted, alder).
-- Sikker datalagring og tilgang: Sørg for at alle sensitive data som brukere legger inn eller som sendes via nettet, bør krypteres ved hjelp av HTTPS for å beskytte informasjonen mot avlytting og andre former for datatyveri.I tillegg bør man begrense tilgangen til personopplysninger til kun de som trenger det for å utføre sine arbeidsoppgaver (f.eks. ansatte som håndterer forsikringstilbud eller kundeservice).
+- Dataminimering: Man bør kun samle inn personopplysninge som er nødvendige for å gi brukeren et tilbud om forsikring. (f.eks. info om bilens registreringsnummer og modell, brukerens bosted, alder).
+- Sikker datalagring og tilgang: Alle sensitive data som brukere legger inn eller som sendes via nettet, bør krypteres ved hjelp av HTTPS for å beskytte informasjonen mot avlytting og andre former for datatyveri. I tillegg bør man begrense tilgangen til personopplysninger til kun de som trenger det for å utføre sine arbeidsoppgaver (f.eks. ansatte som håndterer forsikringstilbud eller kundeservice).
 - Personvernerklæring: Inkluder en tydelig personvernerklæring som forklarer hvordan innsamlede data brukes, lagres, og eventuelt deles med tredjepart. I tillegg bør brukerne få mulighet til å samtykke til bruk av ikke-nødvendige cookies, med klar informasjon om hvilke data som samles inn og hvorfor.
 - Sletting av data: Det er viktig å implementere rutiner for sletting av persondata når brukeren ikke lenger trenger tjenesten. Dette kan for eksempel være hvis en bruker avslutter forsikringen, og dataene deres ikke lenger er nødvendige.
 - Regelmessig oppdatering og patching: Hold programvaren og avhengighetene oppdatert for å beskytte mot kjente sikkerhetssårbarheter. 
@@ -29,8 +28,6 @@ Noen tiltak for å ivareta sikkerhet/personvern i denne løsningen:
 
 
 ### Oppgave 3 
-**Staten stiller krav til at digitale løsninger skal være universelt utformet.
-Hva mener du utviklere og designere bør tenke på for å ivareta universell utforming i denne løsningen?**
 
 Jeg har tatt utgangspunkt i retningslinjene til Tilsynet for universell utforming av ikt og WCAG-standarden for privat sektor. Ut fra dette har jeg plukket ut noen krav jeg mener er relevante i denne løsningen.
 
