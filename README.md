@@ -19,7 +19,7 @@ Jeg gjør en antakelse om at løsningen er en del av et større system, der en b
 
 Noen tiltak for å ivareta sikkerhet/personvern i løsningen:
 
-- Dataminimering: Man bør kun samle inn personopplysninge som er nødvendige for å gi brukeren et tilbud om forsikring. (f.eks. info om bilens registreringsnummer og modell, brukerens bosted, alder).
+- Dataminimering: Man bør kun samle inn personopplysninger som er nødvendige for å gi brukeren et tilbud om forsikring (f.eks. info om bilens registreringsnummer og modell, brukerens bosted, alder).
 - Sikker datalagring og tilgang: Alle sensitive data som brukere legger inn eller som sendes via nettet, bør krypteres ved hjelp av HTTPS for å beskytte informasjonen mot avlytting og andre former for datatyveri. I tillegg bør man begrense tilgangen til personopplysninger til kun de som trenger det for å utføre sine arbeidsoppgaver (f.eks. ansatte som håndterer forsikringstilbud eller kundeservice).
 - Personvernerklæring: Inkluder en tydelig personvernerklæring som forklarer hvordan innsamlede data brukes, lagres, og eventuelt deles med tredjepart. I tillegg bør brukerne få mulighet til å samtykke til bruk av ikke-nødvendige cookies, med klar informasjon om hvilke data som samles inn og hvorfor.
 - Sletting av data: Det er viktig å implementere rutiner for sletting av persondata når brukeren ikke lenger trenger tjenesten. Dette kan for eksempel være hvis en bruker avslutter forsikringen, og dataene deres ikke lenger er nødvendige.
