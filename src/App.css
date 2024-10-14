@@ -4,14 +4,4 @@
   padding: 3rem;
 }
 
-@font-face {
-  font-family: 'Profilfont-Bold';
-  src: url('./assets/fonts/Profilfont-Bold-Web.woff2') format('woff2'),
-       url('./assets/fonts/Profilfont-Bold-Web.woff') format('woff'),
-}
 
-@font-face {
-  font-family: 'Profilfont-Regular';
-  src: url('./assets/fonts/Profilfont-Regular-Web.woff2') format('woff2'),
-       url('./assets/fonts/Profilfont-Regular-Web.woff') format('woff'),
-}
